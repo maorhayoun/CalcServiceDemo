@@ -56,10 +56,7 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="MyCalcTestLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\MyCalcTestLib.0.4\lib\net45\MyCalcTestLib.dll</HintPath>
-    </Reference>
-    <Reference Include="nunit.framework">
-      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
+      <HintPath>..\packages\MyCalcTestLib.0.8\lib\net45\MyCalcTestLib.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />

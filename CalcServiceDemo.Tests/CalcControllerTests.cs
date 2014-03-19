@@ -1,8 +1,8 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using CalcServiceDemo.Controllers;
 using MyCalcTestLib;
 using Rhino.Mocks;
-using CalcServiceAppDemo;
 
 namespace CalcServiceDemo.Tests
 {
@@ -10,14 +10,14 @@ namespace CalcServiceDemo.Tests
     public class CalcControllerTests
     {
         [TestMethod]
-        public void CalculatorService_SmokeTest()
+        public void GetAdd_SmokeTest()
         {
             // mock utils inteface
             ICalcUtils utils = MockRepository.GenerateStub<ICalcUtils>();
             utils.Stub(x => x.Add(2, 2)).Return(4);
 
-            CalculatorService calc = new CalculatorService(utils);
-            Assert.AreEqual("result was: 4", calc.Calc("add", 2, 2));
+            CalcController calc = new CalcController(utils);
+            Assert.AreEqual("result was: 4", calc.GetAdd(2, 2));
         }
     }
 }

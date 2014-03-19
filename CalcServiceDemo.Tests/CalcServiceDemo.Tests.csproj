@@ -39,15 +39,13 @@
   <ItemGroup>
     <Reference Include="MyCalcTestLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\MyCalcTestLib.0.7\lib\net45\MyCalcTestLib.dll</HintPath>
-    </Reference>
-    <Reference Include="nunit.framework">
-      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
+      <HintPath>..\packages\MyCalcTestLib.0.8\lib\net45\MyCalcTestLib.dll</HintPath>
     </Reference>
     <Reference Include="Rhino.Mocks">
       <HintPath>..\packages\RhinoMocks.3.6.1\lib\net\Rhino.Mocks.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
   </ItemGroup>
   <Choose>
     <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
@@ -69,9 +67,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CalcServiceAppDemo\CalcServiceAppDemo.csproj">
-      <Project>{b229327b-0d51-4f5a-bc25-66a2a4a4ff6a}</Project>
-      <Name>CalcServiceAppDemo</Name>
+    <ProjectReference Include="..\CalcServiceDemo\CalcServiceDemo.csproj">
+      <Project>{0446dd32-5b1c-4cc4-a858-9d0e69fb1233}</Project>
+      <Name>CalcServiceDemo</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
