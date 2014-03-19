@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{22FDBA
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcServiceDemo.Tests", "CalcServiceDemo.Tests\CalcServiceDemo.Tests.csproj", "{93F7A318-6490-4F66-AAA2-D776B0061588}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{0446DD32-5B1C-4CC4-A858-9D0E69FB1233}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0446DD32-5B1C-4CC4-A858-9D0E69FB1233}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0446DD32-5B1C-4CC4-A858-9D0E69FB1233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93F7A318-6490-4F66-AAA2-D776B0061588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93F7A318-6490-4F66-AAA2-D776B0061588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93F7A318-6490-4F66-AAA2-D776B0061588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93F7A318-6490-4F66-AAA2-D776B0061588}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

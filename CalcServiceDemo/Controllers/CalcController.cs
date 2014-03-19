@@ -18,8 +18,19 @@ namespace CalcServiceDemo.Controllers
     [RoutePrefix("calc")]
     public class CalcController : ApiController
     {
-        private readonly CalcUtils _lib = new CalcUtils();
-        
+        private readonly ICalcUtils _lib;
+
+
+        public CalcController()
+            : this(new CalcUtils())
+        {
+        }
+
+        public CalcController(ICalcUtils calcUtils)
+        {
+            _lib = calcUtils;
+        }
+
         [GET("add/{x}/{y}")]
         public string GetAdd(int x, int y)
         {
