@@ -39,7 +39,10 @@
   <ItemGroup>
     <Reference Include="MyCalcTestLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\MyCalcTestLib.0.4\lib\net45\MyCalcTestLib.dll</HintPath>
+      <HintPath>..\packages\MyCalcTestLib.0.7\lib\net45\MyCalcTestLib.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="Rhino.Mocks">
       <HintPath>..\packages\RhinoMocks.3.6.1\lib\net\Rhino.Mocks.dll</HintPath>
